@@ -24,3 +24,5 @@ hs_err_pid*
 replay_pid*
 frontend/node_modules/
 backend/target/
+backend/financiero-frontend*
+backend/vite
