@@ -7,6 +7,7 @@ import lombok.AllArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "tarjetas")
@@ -42,6 +43,7 @@ public class Tarjeta {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "cliente_id", nullable = false)
+    @JsonIgnoreProperties({"tarjetas", "hibernateLazyInitializer"})
     private Cliente cliente;
 
     @Column(name = "created_at", nullable = false, updatable = false)
