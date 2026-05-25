@@ -20,7 +20,7 @@
     <description>Sistema de Gestión de Información Financiera — ISW1</description>
 
     <properties>
-        <java.version>20</java.version>
+        <java.version>17</java.version>
         <sonar.coverage.jacoco.xmlReportPaths>
             target/site/jacoco/jacoco.xml
         </sonar.coverage.jacoco.xmlReportPaths>
