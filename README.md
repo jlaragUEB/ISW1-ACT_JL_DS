@@ -116,3 +116,4 @@ mvn test
 [iniciales]-[código_jira]: descripción corta
 Ejemplo: DS-ISW1JLDS-7: Implementar tabla de tarjetas
 ```
+# SCRUM-11
